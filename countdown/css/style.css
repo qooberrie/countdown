@@ -1,0 +1,6 @@
+@import url("global.css");
+@import url("tabs.css");
+@import url("mobile.css");
+:root {
+  --container-border-width: 0.5rem;
+}

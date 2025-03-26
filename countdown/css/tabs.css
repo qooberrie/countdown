@@ -1,0 +1,118 @@
+html {
+  background: linear-gradient(#faf5e2, #f7cdcf);
+  background: white;
+}
+/* * comment test */
+/* ! comment test */
+/* ? comment test */
+/* TODO comment test */
+/* // comment test */
+
+body {
+  margin: auto;
+  width: 100%;
+  height: 100vh;
+}
+
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 800px;
+  min-width: 200px;
+  padding: 170px 0 0 0;
+  align-self: center;
+}
+
+.tabs input[type="radio"] {
+  display: none;
+}
+
+.tabs input[type="radio"]:checked + label + .tab {
+  display: block;
+}
+
+.tabs input[type="radio"]:checked + label {
+  background-image: url("../assets/labelBG.png");
+  background-repeat: no-repeat;
+}
+
+.tabs label {
+  background: transparent;
+  padding: 20px 130px;
+  margin: 0px 10px 0px 0px;
+  transform: translateY(var(--container-border-width));
+  border-image-width: 30px;
+  border-image-repeat: round;
+  border-radius: 0px 4px 4px 4px;
+  cursor: pointer;
+  border-style: hidden;
+}
+
+.tabs label img {
+  min-width: 30px;
+  image-rendering: pixelated;
+}
+
+.tabs .tab {
+  display: flex;
+  text-align: center;
+  background: #add94724;
+  width: 100%;
+  order: 1;
+  display: none;
+  border: var(--container-border-width) solid transparent;
+  border-image: url("../assets/frame.png");
+  border-image-slice: 19%;
+  border-image-width: 39px;
+  border-image-repeat: round;
+  border-radius: 0px 4px 4px 4px;
+}
+
+.tabs .tab .countdownWrapper div {
+  display: inline-block;
+  grid-template-columns: 1fr;
+  padding: 5px 20px;
+  border: 10px solid transparent;
+}
+
+.tabs .tab h1 {
+  padding: 20px 10px 0px 10px;
+  text-align: center;
+  color: #6e9316;
+  font-size: 3rem;
+}
+.tabs .tab h2 {
+  padding: 0px 10px 20px 10px;
+  text-align: center;
+  color: #6e9316;
+  font-size: 3rem;
+}
+
+.tabs .tab h2 .ColorS {
+  color: #ff7a83;
+}
+.tabs .tab h2 .ColorS:hover {
+  color: #ff7a8365;
+  transition: 1s;
+}
+
+.tabs .tab h2 .ColorO {
+  color: #e4923f;
+}
+.tabs .tab h2 .ColorO:hover {
+  color: #e4913f3a;
+  transition: 1s;
+}
+
+.tabs .tab div p {
+  font-weight: bold;
+  font-size: 4rem;
+  color: #add947;
+  text-align: center;
+}
+
+.tabs .tab div span {
+  font-size: 1.5rem;
+  font-style: italic;
+  color: #6e9316;
+}

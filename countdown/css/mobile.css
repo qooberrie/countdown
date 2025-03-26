@@ -1,0 +1,20 @@
+@media screen and (max-width: 800px) {
+  body {
+    width: 90%;
+  }
+  .tabs {
+    padding: 50px 0 0 0;
+  }
+
+  .tabs .tab {
+    min-width: 290px;
+  }
+  .tabs .tab .countdownWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .tabs .tab div {
+    padding: 0px;
+  }
+}
