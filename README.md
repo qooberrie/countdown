@@ -6,4 +6,6 @@
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/iuricode/README-template?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/iuricode/README-template?style=for-the-badge)
 
-> 
+> Mini projeto de countdown pra duas datas específicas
+- 24, junho de 2025
+- 29, julho de 2025
